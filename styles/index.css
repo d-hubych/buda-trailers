@@ -19,9 +19,12 @@ a {
 
 h1 {
     font-family: 'Luckiest Guy', cursive;
-    font-size: 60px;
+    font-size: 65px;
     font-weight: 300;
-    padding: 20px 0;
+}
+
+header section span {
+    font-size: 30px;
 }
 
 h2 {
@@ -42,7 +45,7 @@ header span {
 
 header {
     background-image: url(../imgs/backgrounds/header-background.png);
-    background-size: auto;
+    background-size: cover;
     background-position: center;
     min-height: 500px;
     color: var(--light-colour);
@@ -63,26 +66,28 @@ header nav {
 }
 
 header section {
-    padding: 30px 0;
+    padding: 10px 0px 20px 0px;
 }
 
 .divider-line {
     width: 100%;
-    padding: 20px 0;
+    padding: 15px 0;
 }
 
 header section p {
-    font-size: 19px;
+    font-size: 15px;
     font-weight: 600;
-    padding: 10px 10px 30px 10px;
+    padding: 10px 10px 10px 10px;
 }
 
 .btns-group {
     display: grid;
     justify-content: center;
+    margin: 10px 0px 20px 0px;
+
 }
 
-header .book-btn {
+header .btn-1 {
     background-color: #fbb01f;
     color: var(--light-colour);
     font-size: 16px;
@@ -91,12 +96,12 @@ header .book-btn {
     border-radius: 100px;
     padding: 15px 25px;
     border: var(--dark-colour);
-    width: fit-content;
+    width: auto;
     margin: 10px;
 
 }
 
-header .discover-btn {
+header .btn-2 {
     background-color: transparent;
     color: var(--light-colour);
     font-size: 16px;
@@ -104,8 +109,8 @@ header .discover-btn {
     font-family: "Work Sans", sans-serif;
     border-radius: 100px;
     padding: 15px 25px;
-    border: 1px solid #fbb01f;
-    width: fit-content;
+    border: 2px solid #fbb01f;
+    width: auto;
     margin: 10px;
 }
 
