@@ -139,8 +139,15 @@ article p {
     margin: 20px;
 }
 
+.follow-us span {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--dark-colour);
+}
+
 .follow-us img{
     height: 30px;
+    margin: 5px 15px 5px 15px;
 }
 
 .btn-order-now {
