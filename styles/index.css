@@ -150,6 +150,10 @@ article p {
     margin: 5px 15px 5px 15px;
 }
 
+.trailer-models a {
+    color: var(--general-colour);
+}
+
 .btn-order-now {
     background-color: #99b20f;
     color: var(--light-colour);
@@ -161,6 +165,31 @@ article p {
     border: var(--dark-colour);
     width: fit-content;
     margin: 10px;
+}
+
+.crossing-background-colors {
+    background-image: url(../imgs/backgrounds/---to-black-background.png);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+}
+
+.gallery-container {
+    background-image: url(../imgs/backgrounds/black-background.png);
+}
+
+.gallery-container h2 {
+    color: var(--light-colour);
+    margin: 0 0 20px 0;
+}
+
+.crossing-background-colors-2 {
+    background-image: url(../imgs/backgrounds/black-to---background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    margin-top: -20px;
 }
 
 footer {
