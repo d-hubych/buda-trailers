@@ -120,8 +120,7 @@ main .btn-in-gallery {
 }
 
 header .btn-1:hover,
-main .btn-in-gallery:hover,
-main .btn-order-now:hover {
+main .btn-in-gallery:hover {
     background-color: var(--light-color);
     color: var(--dark-color);
 
@@ -180,6 +179,10 @@ article p {
     width: fit-content;
     margin: 10px;
 }
+.btn-order-now:hover {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
 
 .crossing-background-colors {
     background-image: url(../imgs/backgrounds/---to-black-background.png);
@@ -218,8 +221,35 @@ article p {
     color: var(--light-color);
 }
 
-.want-to-nature h2 {
+main .want-to-nature h2,
+main .testimonials h2,
+main .testimonials p,
+main .testimonials h3 {
     color: var(--light-color);
+}
+
+main .testimonials {
+    background-image: url(../imgs/backgrounds/testimonials-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -20px;
+    padding: 10px 10px 30px 10px;
+    color: var(--dark-color);
+    font-weight: 500;
+    display: grid;
+}
+
+main .testimonials article {
+    background-color: var(--contrast-color);
+    margin: 10px;
+    display: grid;
+}
+
+.testimonials img {
+    width: 120px;
+    border-radius: 100px;
+    justify-self: center;
+    margin: 10px;
 }
 
 footer {
