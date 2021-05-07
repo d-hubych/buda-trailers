@@ -1,20 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Passion+One:wght@400;700;900&display=swap');
 
 :root {
-    --light-colour: #FFFFFF;
-    --general-colour: #1C1C1BBA;
-    --dark-colour: #1C1C1B;
+    --light-color: #FFFFFF;
+    --general-color: #1C1C1BBA;
+    --dark-color: #1C1C1B;
+    --contrast-color: #fbb01f;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: var(--light-colour);
+    background-color: var(--light-color);
     text-align: center;
 }
 
 a {
     text-decoration: none;
-    color: var(--light-colour);
+    color: var(--light-color);
 }
 
 h1 {
@@ -29,7 +30,7 @@ header section span {
 
 h2 {
     font-family: 'Passion One', cursive;
-    color: var(--dark-colour);
+    color: var(--dark-color);
     font-size: 38px;
     margin: 20px;
 }
@@ -43,7 +44,7 @@ h3 {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: var(--light-colour);
+    color: var(--light-color);
     font-size: 18px;
     font-weight: 500;
 }
@@ -78,7 +79,7 @@ header {
     background-size: cover;
     background-position: center;
     min-height: 500px;
-    color: var(--light-colour);
+    color: var(--light-color);
 }
 
 header section {
@@ -103,35 +104,48 @@ header section p {
 
 }
 
-header .btn-1 {
-    background-color: #fbb01f;
-    color: var(--light-colour);
-    font-size: 16px;
-    font-weight: 500;
+header .btn-1,
+main .btn-in-gallery {
+    background-color: var(--contrast-color);
+    color: var(--light-color);
+    font-size: 17px;
+    font-weight: 650;
     font-family: "Work Sans", sans-serif;
     border-radius: 100px;
     padding: 15px 25px;
-    border: var(--dark-colour);
+    border: var(--dark-color);
     width: auto;
     margin: 10px;
+
+}
+
+header .btn-1:hover,
+main .btn-in-gallery:hover,
+main .btn-order-now:hover {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+
 
 }
 
 header .btn-2 {
     background-color: transparent;
-    color: var(--light-colour);
-    font-size: 16px;
-    font-weight: 500;
+    color: var(--light-color);
+    font-size: 17px;
+    font-weight: 650;
     font-family: "Work Sans", sans-serif;
     border-radius: 100px;
     padding: 15px 25px;
-    border: 2px solid #fbb01f;
+    border: 2px solid var(--contrast-color);
     width: auto;
     margin: 10px;
 }
+header .btn-2:hover {
+    background-color: var(--contrast-color);
+}
 
 main {
-    color: var(--general-colour);
+    color: var(--general-color);
 }
 
 article p {
@@ -142,7 +156,7 @@ article p {
 .follow-us span {
     font-size: 1.5rem;
     font-weight: 700;
-    color: var(--dark-colour);
+    color: var(--dark-color);
 }
 
 .follow-us img{
@@ -151,18 +165,18 @@ article p {
 }
 
 .trailer-models a {
-    color: var(--general-colour);
+    color: var(--general-color);
 }
 
 .btn-order-now {
     background-color: #99b20f;
-    color: var(--light-colour);
+    color: var(--light-color);
     font-size: 16px;
     font-weight: 700;
     font-family: "Work Sans", sans-serif;
     border-radius: 100px;
     padding: 15px 25px;
-    border: var(--dark-colour);
+    border: var(--dark-color);
     width: fit-content;
     margin: 10px;
 }
@@ -180,7 +194,7 @@ article p {
 }
 
 .gallery-container h2 {
-    color: var(--light-colour);
+    color: var(--light-color);
     margin: 0 0 20px 0;
 }
 
@@ -190,6 +204,22 @@ article p {
     background-size: cover;
     height: 100px;
     margin-top: -20px;
+}
+
+.want-to-nature-container {
+    background-image: url(../imgs/backgrounds/nature-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.want-to-nature {
+    padding: 100px 0;
+    color: var(--light-color);
+}
+
+.want-to-nature h2 {
+    color: var(--light-color);
 }
 
 footer {
