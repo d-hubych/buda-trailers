@@ -5,6 +5,7 @@
     --general-color: #1C1C1BBA;
     --dark-color: #1C1C1B;
     --contrast-color: #fbb01f;
+    --additional-contrast-color: #99b20f;
 }
 
 body {
@@ -19,9 +20,10 @@ a {
 }
 
 h1 {
-    font-family: 'Luckiest Guy', cursive;
-    font-size: 65px;
-    font-weight: 300;
+    font-family: 'Montserrat', cursive;
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 100px;
 }
 
 header section span {
@@ -29,14 +31,14 @@ header section span {
 }
 
 h2 {
-    font-family: 'Passion One', cursive;
+    font-family: 'Montserrat', cursive;
     color: var(--dark-color);
     font-size: 38px;
     margin: 20px;
 }
 
 h3 {
-    font-family: 'Passion One', cursive;
+    font-family: 'Montserrat', cursive;
 }
 
 .bg-light {
@@ -55,8 +57,8 @@ h3 {
 }
 
 header nav .navbar-brand {
-    font-family: 'Luckiest Guy', cursive;
-    font-size: 1.4rem;
+    font-family: 'Montserrat', cursive;
+    font-size: 1.7rem;
 }
 
 .social-menu {
@@ -70,7 +72,7 @@ header nav .navbar-brand {
 }
 
 header span {
-    font-family: 'Passion One', cursive;
+    font-family: 'Montserrat', cursive;
     font-size: 22px;
 }
 
@@ -88,19 +90,20 @@ header section {
 
 .divider-line {
     width: 100%;
-    padding: 15px 0;
+    margin: 15px 0 30px 0;
 }
 
 header section p {
     font-size: 15px;
     font-weight: 600;
     padding: 10px 10px 10px 10px;
+    margin-bottom: 50px;
 }
 
 .btns-group {
     display: grid;
     justify-content: center;
-    margin: 10px 0px 20px 0px;
+    margin: 10px 0px 100px 0px;
 
 }
 
@@ -110,7 +113,7 @@ main .btn-in-gallery {
     color: var(--light-color);
     font-size: 17px;
     font-weight: 650;
-    font-family: "Work Sans", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     border-radius: 100px;
     padding: 15px 25px;
     border: var(--dark-color);
@@ -132,7 +135,7 @@ header .btn-2 {
     color: var(--light-color);
     font-size: 17px;
     font-weight: 650;
-    font-family: "Work Sans", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     border-radius: 100px;
     padding: 15px 25px;
     border: 2px solid var(--contrast-color);
@@ -163,16 +166,20 @@ article p {
     margin: 5px 15px 5px 15px;
 }
 
-.trailer-models a {
-    color: var(--general-color);
+.buda_futures_ico {
+    margin: 20px 0 20px 0;
+}
+
+.btn-order-now-container {
+    margin: 20px 0 20px 0;
 }
 
 .btn-order-now {
-    background-color: #99b20f;
+    background-color: var(--additional-contrast-color);
     color: var(--light-color);
     font-size: 16px;
     font-weight: 700;
-    font-family: "Work Sans", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     border-radius: 100px;
     padding: 15px 25px;
     border: var(--dark-color);
@@ -190,6 +197,7 @@ article p {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100px;
+    margin-bottom: -1px;
 }
 
 .gallery-container {
@@ -198,7 +206,12 @@ article p {
 
 .gallery-container h2 {
     color: var(--light-color);
-    margin: 0 0 20px 0;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.btn-in-gallery-container {
+    padding: 20px 0 30px 0;
 }
 
 .crossing-background-colors-2 {

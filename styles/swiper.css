@@ -1,4 +1,8 @@
-.swiper-container {
+.buda-carousel .swiper-container {
+
+}
+
+.gallery-carousel .swiper-container {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -16,6 +20,10 @@
   width: 100%;
 }
 
-.swiper-pagination-bullet {
-  background-color: #fbb01f;
+.gallery-carousel .swiper-pagination-bullet {
+  background-color: var(--contrast-color);
+}
+
+.buda-carousel .swiper-pagination-bullet {
+  background-color: var(--additional-contrast-color);
 }
