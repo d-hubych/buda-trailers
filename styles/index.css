@@ -276,6 +276,10 @@ main .testimonials article {
     margin-top: 50px;
 }
 
+.booking-form-container {
+    padding: 20px 0 50px 0;
+}
+
 footer {
     background-image: url(../imgs/backgrounds/footer-background.png);
     background-size: auto;
