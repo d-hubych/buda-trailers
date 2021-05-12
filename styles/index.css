@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Passion+One:wght@400;700;900&display=swap');
-
 :root {
     --light-color: #FFFFFF;
     --general-color: #1C1C1BBA;
@@ -104,12 +103,9 @@ header section p {
     display: grid;
     justify-content: center;
     margin: 10px 0px 80px 0px;
-
 }
 
-header .btn-1,
-main .btn-in-gallery,
-main .btn-want-to-nature {
+header .btn-1, main .btn-in-gallery, main .btn-want-to-nature {
     background-color: var(--contrast-color);
     color: var(--light-color);
     font-size: 17px;
@@ -120,12 +116,9 @@ main .btn-want-to-nature {
     border: var(--dark-color);
     width: auto;
     margin: 10px;
-
 }
 
-header .btn-1:hover,
-main .btn-in-gallery:hover,
-main .btn-want-to-nature:hover {
+header .btn-1:hover, main .btn-in-gallery:hover, main .btn-want-to-nature:hover {
     background-color: var(--light-color);
     color: var(--dark-color);
 }
@@ -142,6 +135,7 @@ header .btn-2 {
     width: auto;
     margin: 10px;
 }
+
 header .btn-2:hover {
     background-color: var(--contrast-color);
 }
@@ -161,7 +155,7 @@ article p {
     color: var(--dark-color);
 }
 
-.follow-us img{
+.follow-us img {
     height: 30px;
     margin: 5px 15px 5px 15px;
 }
@@ -186,6 +180,7 @@ article p {
     width: fit-content;
     margin: 10px;
 }
+
 .btn-order-now:hover {
     background-color: var(--dark-color);
     color: var(--light-color);
@@ -193,7 +188,6 @@ article p {
 
 .crossing-background-colors {
     background-image: url(../imgs/backgrounds/---to-black-background.png);
-    
     background-repeat: no-repeat;
     background-size: cover;
     height: 100px;
@@ -234,10 +228,7 @@ article p {
     color: var(--light-color);
 }
 
-main .want-to-nature h2,
-main .testimonials h2,
-main .testimonials p,
-main .testimonials h3 {
+main .want-to-nature h2, main .testimonials h2, main .testimonials p, main .testimonials h3 {
     color: var(--light-color);
 }
 
@@ -268,12 +259,32 @@ main .testimonials article {
 .faq-container {
     background-color: rgb(243, 243, 242);
 }
+
 .faq-container h2 {
     margin: -30px 0 15px 0;
 }
 
 .contacts-container {
-    margin-top: 50px;
+    width: 310px;
+    margin: 50px 5px 5px 5px;
+    display: grid;
+    background-color: var(--contrast-color);
+    padding: 20px 5px;
+    font-weight: 500;
+}
+
+.booking-form-container h2 {
+    font-size: 20px;
+}
+
+.booking-form-container input,
+.booking-form-container textarea {
+    margin: 0 0 10px 0;
+    min-width: 240px;
+}
+
+.booking-form-container label {
+    width: 100px;
 }
 
 .booking-form-container {
