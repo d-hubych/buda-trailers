@@ -203,42 +203,31 @@
                   </div>
         </div>
         <div class="contacts-container" id="contacts">
-            <div class="booking-form-container">
-                <table>
-                    <h2>Заявка на бронювання трейлера</h2>
-                    <h3>*Дата оренди</h3>
-                    <label>
-                        <input type="date" required>
-                    </label>
-                    <span>--</span>
-                    <label>
-                        <input type="date" required>
-                    </label>
-                    <br>
-                    <label>
-                        *Ім'я:
-                        <input type="text" required>
-                    </label>
-                    <br>
-                    <label>
-                        *Email:
-                        <input type="email" required>
-                    </label>
-                    <br>
-                    <label>
-                        *Телефон:
-                        <input type="tel" required>
-                    </label>
-                    <br>
-                    <label>
-                        Коментар:
-                        <textarea name="" id="" cols="25" rows="4"></textarea>
-                    </label>
-                    <br>
-                    <input type="submit" value="Надіслати">
-                </table>
-            </div>
-
+          <div class="booking-form-container">
+            <form action="https://formspree.io/f/xqkwpepk" method="POST">
+              <h2>Заявка на бронювання трейлера</h2>
+              <h3>*Дата оренди</h3>
+              <label for="date-from">Від</label>
+              <input type="date" name="date-from" id="date-from" required>
+              <span>--</span>
+              <label for="date-to">До</label>
+              <input type="date" name="date-to" id="date-to" required>
+              <br>
+              <label for="name">*Ім'я:</label>
+              <input type="text" name="user-name" id="name" required>
+              <br>
+              <label for="email">*Email:</label>
+              <input type="email" name="user-email" id="email" required>
+              <br>
+              <label for="tel">*Телефон:</label>
+              <input type="tel" name="user-tel" id="tel" required>
+              <br>
+              <label for="comment">Коментар:</label>
+              <textarea name="user-comment" id="comment" cols="25" rows="4"></textarea>
+              <br>
+              <input type="submit" value="Надіслати">
+            </form>
+          </div>
         </div>
     </main>
     <footer>
