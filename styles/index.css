@@ -276,11 +276,20 @@ main .testimonials article {
     font-size: 20px;
 }
 
+.booking-form-container .date {
+    margin-bottom: -20px;
+}
+
 .booking-form-container input,
 .booking-form-container textarea {
     margin: 0 0 10px 0;
     min-width: 240px;
+    border-radius: 10px;
+    border: 1px;
+    padding: 0 10px;
 }
+
+
 
 .booking-form-container label {
     width: 100px;

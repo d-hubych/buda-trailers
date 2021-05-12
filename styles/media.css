@@ -1,5 +1,23 @@
+@media (min-width: 426px) {
+    .contacts-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .booking-form-container {
+        padding: 0;
+        margin-top: -20px;
+    }
+
+    form {
+        padding: 0 10px;
+    }
+}
+
 @media (min-width: 992px) {
 .navbar-collapse {
     flex-grow: 0 !important;
 }
+
+
 }
