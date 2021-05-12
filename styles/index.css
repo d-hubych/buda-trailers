@@ -284,6 +284,7 @@ main .testimonials article {
 .booking-form-container textarea {
     margin: 0 0 10px 0;
     min-width: 240px;
+    min-height: 30px;
     border-radius: 10px;
     border: 1px;
     padding: 0 10px;
