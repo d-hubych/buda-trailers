@@ -258,7 +258,6 @@ main .testimonials {
     padding: 10px 10px 150px 10px;
     color: var(--dark-color);
     font-weight: 500;
-    display: grid;
 }
 
 main .testimonials article {

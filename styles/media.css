@@ -8,6 +8,11 @@
         font-size: 17px;
     }
 
+    .testimonials-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
     .contacts-container {
         display: flex;
         justify-content: center;
@@ -29,7 +34,8 @@
     }
 
     .testimonials-container {
-        grid-column: 1fr 1fr 1fr;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
