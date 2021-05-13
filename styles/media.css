@@ -1,4 +1,13 @@
 @media (min-width: 426px) {
+    
+    header .btns-group {
+        display: flex;
+    }
+    
+    p {
+        font-size: 17px;
+    }
+
     .contacts-container {
         display: flex;
         justify-content: center;
@@ -14,10 +23,18 @@
     }
 }
 
+@media (min-width: 769px) {
+    p {
+        font-size: 19px;
+    }
+
+    .testimonials-container {
+        grid-column: 1fr 1fr 1fr;
+    }
+}
+
 @media (min-width: 992px) {
 .navbar-collapse {
     flex-grow: 0 !important;
 }
-
-
 }

@@ -19,6 +19,12 @@ a {
     color: var(--light-color);
 }
 
+p {
+    font-size: 15px;
+    margin: 20px;
+    text-align: justify;
+}
+
 h1 {
     font-family: 'Montserrat', cursive;
     font-size: 60px;
@@ -33,7 +39,7 @@ header section span {
 h2 {
     font-family: 'Montserrat', cursive;
     color: var(--dark-color);
-    font-size: 38px;
+    font-size: 5vh;
     margin: 20px;
 }
 
@@ -94,7 +100,7 @@ header section {
 }
 
 header section p {
-    font-size: 15px;
+    font-size: 2.5vh;
     font-weight: 600;
     padding: 10px 10px 10px 10px;
     margin-bottom: 30px;
@@ -106,6 +112,12 @@ header section p {
     margin: 10px 0px 80px 0px;
 }
 
+.btn-want-to-nature-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
 header .btn-1, main .btn-in-gallery, main .btn-want-to-nature {
     background-color: var(--contrast-color);
     color: var(--light-color);
@@ -115,7 +127,7 @@ header .btn-1, main .btn-in-gallery, main .btn-want-to-nature {
     border-radius: 100px;
     padding: 15px 25px;
     border: var(--dark-color);
-    width: auto;
+    width: fit-content;
     margin: 10px;
 }
 
@@ -145,11 +157,6 @@ main {
     color: var(--general-color);
 }
 
-article p {
-    font-size: 16px;
-    margin: 20px;
-}
-
 .follow-us span {
     font-size: 1.5rem;
     font-weight: 700;
@@ -166,20 +173,24 @@ article p {
 }
 
 .btn-order-now-container {
-    margin: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -60px;
 }
 
 .btn-order-now {
+    display: block;
+    height: 59px;
+    width: fit-content;   
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;     
     background-color: var(--additional-contrast-color);
     color: var(--light-color);
-    font-size: 16px;
-    font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    border: var(--dark-color);
     border-radius: 100px;
     padding: 15px 25px;
-    border: var(--dark-color);
-    width: fit-content;
-    margin: 10px;
+    margin: 20px 0 20px 0;
 }
 
 .btn-order-now:hover {
@@ -191,7 +202,7 @@ article p {
     background-image: url(../imgs/backgrounds/---to-black-background.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100px;
+    min-height: 150px;
     margin-bottom: -1px;
 }
 
@@ -207,13 +218,18 @@ article p {
 
 .btn-in-gallery-container {
     padding: 20px 0 30px 0;
+    height: 59px;
+}
+
+.btn-in-gallery {
+    height: 59px;
 }
 
 .crossing-background-colors-2 {
     background-image: url(../imgs/backgrounds/black-to---background.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100px;
+    height: 150px;
     margin-top: -20px;
 }
 
@@ -289,8 +305,6 @@ main .testimonials article {
     border: 1px;
     padding: 0 10px;
 }
-
-
 
 .booking-form-container label {
     width: 100px;
