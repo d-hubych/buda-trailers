@@ -8,7 +8,8 @@
 }
 
 body {
-    max-width: 1024px;
+    max-width: 1440px;
+    margin: auto;
     font-family: 'Montserrat', sans-serif;
     background-color: var(--light-color);
     text-align: center;
@@ -158,15 +159,19 @@ main {
     color: var(--general-color);
 }
 
+.follow-us {
+    margin: 0 0 20px 0;
+}
+
 .follow-us span {
-    font-size: 1.5rem;
+    font-size: 22px;
     font-weight: 700;
     color: var(--dark-color);
 }
 
 .follow-us img {
-    height: 30px;
-    margin: 5px 15px 5px 15px;
+    height: 40px;
+    margin: 10px 20px 10px 20px;
 }
 
 .buda_futures_ico {
@@ -246,7 +251,7 @@ main {
     color: var(--light-color);
 }
 
-main .want-to-nature h2, main .testimonials h2, main .testimonials p, main .testimonials h3 {
+main .want-to-nature h3, main .testimonials h2, main .testimonials p, main .testimonials h3 {
     color: var(--light-color);
 }
 
