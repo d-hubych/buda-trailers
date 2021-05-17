@@ -1,3 +1,17 @@
+@media (min-width: 376px) {
+    
+    .booking-form-container {
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .booking-form {
+        justify-content: right;
+        text-align: right;
+    }
+}
+
 @media (min-width: 426px) {
     
     header .btns-group {
@@ -38,6 +52,11 @@
     }
 
     .testimonials-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .accordion-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
